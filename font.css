@@ -1,3 +1,11 @@
-@import url(../BogacsBettina_auto_hazi/fonts/Roboto-Black.ttf);
-@import url(../BogacsBettina_auto_hazi/fonts/Roboto-Regular.ttf);
 @import url(index.css);
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../BogacsBettina_auto_hazi/fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../BogacsBettina_auto_hazi/fonts/Roboto-Regular.ttf);
+}
