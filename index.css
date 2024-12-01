@@ -37,7 +37,6 @@ body{
 
 h1{
     color: rgb(0, 113, 76);
-    font-family: Roboto-Black;
     font-size: 3rem;
     padding-left: 15px;
 }
@@ -71,6 +70,7 @@ section{
     color: rgb(0, 113, 76);
     padding-left: 10px;
     border-bottom: 1px solid rgb(209, 204, 204);
+    background-color: rgb(236, 234, 234);
 }
 
 .grid_1 img{
@@ -85,6 +85,7 @@ section{
 .grid_1 p{
     font-size: 1.2rem;
     padding: 5px 30px 0 30px;
+    color: grey;
 }
 
 .grid_2{
@@ -100,6 +101,7 @@ section{
     color: rgb(0, 113, 76);
     padding-left: 10px;
     border-bottom: 1px solid rgb(209, 204, 204);
+    background-color: rgb(236, 234, 234);
 }
 
 .grid_2 img{
@@ -114,7 +116,7 @@ section{
 .grid_2 p{
     font-size: 1.2rem;
     padding: 5px 30px 0 30px;
-    
+    color: grey;
 }
 
 .grid_kepek{

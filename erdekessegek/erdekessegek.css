@@ -1,0 +1,126 @@
+@import url(font.css);
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../BogacsBettina_auto_hazi/fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../BogacsBettina_auto_hazi/fonts/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    max-width: 1040px;
+    margin: auto;
+    
+}
+
+.main_container{
+    max-width: 1040px;
+    
+}
+
+.main_grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    padding-left: 15px;
+
+}
+
+h1{
+    color: rgb(0, 113, 76);
+    font-size: 3rem;
+    padding-left: 15px;
+}
+
+section a{
+    text-decoration: none;
+    color: rgb(176, 225, 209);
+    padding: 10px;
+    font-size: 1.2rem;
+
+}
+
+section{
+    background-color: rgb(0, 113, 76);
+    padding: 20px 0 20px 30px;
+    
+}
+
+.grid_1{
+    padding: 10px 0 0 30px;
+    margin-top: 10px;
+
+}
+
+.grid_1 li{
+    padding-bottom: 20px;
+    font-size: 1rem;
+    color: grey;
+    line-height: 1.6;
+}
+.grid_kepek img{
+    width: 300px;
+    height: 180px;
+    border: 1px solid rgb(209, 204, 204);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    color: rgb(0, 113, 76);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 850px) {
+    .main_grid {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .grid_kepek {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .grid_kepek img {
+        width: 45%; 
+    }
+
+    h1 {
+        font-size: 2.5rem; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .grid_kepek img {
+        width: 90%; 
+        margin: 0 auto;
+    }
+
+    .grid_1 {
+        padding: 10px; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+        text-align: center;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
